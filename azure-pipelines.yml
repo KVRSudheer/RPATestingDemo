@@ -12,7 +12,7 @@ steps:
 - task: UiPathPack@4
   inputs:
       versionType: 'AutoVersion'
-      projectJsonPath: ''
+      projectJsonPath: 'project.json'
       outputType: 'Tests'
       orchestratorConnection: 'UiPathTrailZonePipeline'
       outputPath: '$(Build.ArtifactStagingDirectory)\Output'
