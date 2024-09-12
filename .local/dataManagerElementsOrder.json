@@ -12,24 +12,24 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "TransactionItem&StateMachine_1",
-        "SystemException&StateMachine_1",
-        "BusinessException&StateMachine_1",
-        "TransactionNumber&StateMachine_1",
-        "Config&StateMachine_1",
-        "RetryNumber&StateMachine_1",
-        "TransactionField2&StateMachine_1",
-        "TransactionField1&StateMachine_1",
-        "TransactionID&StateMachine_1",
-        "TransactionData&StateMachine_1",
-        "ConsecutiveSystemExceptions&StateMachine_1",
-        "rpaBrowser&StateMachine_1",
-        "rpaTransactions&StateMachine_1",
-        "ShouldStop&Sequence_25"
+        "dt_ExtractData&Flowchart_1",
+        "dt_FilteredData&Flowchart_1",
+        "Browser&Flowchart_1",
+        "App&Flowchart_1",
+        "ProcessWorkItems&Flowchart_1",
+        "ClientId&Sequence_9",
+        "ClientName&Sequence_9",
+        "ClientCountry&Sequence_9",
+        "SecurityHash&Sequence_9",
+        "TaxId&Sequence_7",
+        "UploadId&Sequence_7",
+        "ClientId&Sequence_5",
+        "AccountNumber&Sequence_5",
+        "AccountAmount&Sequence_5",
+        "TotalSystem3&Sequence_5"
       ],
       "ArgumentsSectionElementsOrder": [
-        "in_OrchestratorQueueName",
-        "in_OrchestratorQueueFolder"
+        "in_FilterCriteria"
       ],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
@@ -112,6 +112,102 @@
       "ArgumentsSectionElementsOrder": [
         "WorkflowFile",
         "ExpectedResult"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/AcmeSystem1/Functional Tests/Deprycated-TC_WI5WorkItems_DataDriven.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Browser&Sequence_4",
+        "WorkItemStatus&Sequence_5",
+        "WIStatus&Sequence_5",
+        "StartIndex&Sequence_5",
+        "EndIndex&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "WIID",
+        "Status"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "AcmeSystem1/WI5WorkItems.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Browser&Sequence_1",
+        "ClientId&Sequence_1",
+        "ClientName&Sequence_1",
+        "ClientCountry&Sequence_1",
+        "SecurityHash&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_WIID"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "AcmeSystem1/AcmeSystem1_Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_Browser"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "AcmeSystem1/NavigateToWorkItems.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_Browser"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "AcmeSystem1/WI5/ExtractClientInformationWI5.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ClientDetails&Sequence_3",
+        "StartIndex&Sequence_3",
+        "EndIndex&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_WIID",
+        "in_Browser",
+        "out_ClienId",
+        "out_ClientName",
+        "out_ClientCountry"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SHA1/SHA1_RetrieveClientSecurityHash.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_ClientId",
+        "in_ClientName",
+        "out_SecurityHash",
+        "in_ClientCountry"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "AcmeSystem1/WI5/UpdateClientSecurityHashWI5.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_WIID",
+        "in_SecurityHash",
+        "in_Browser"
       ],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null

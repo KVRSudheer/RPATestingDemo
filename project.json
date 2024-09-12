@@ -170,6 +170,15 @@
         "executionTemplateType": "Local",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Test Cases\\AcmeSystem1\\Functional Tests\\TC_WI5WorkItems_DataDriven.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "6dbbf56f-3223-4f04-9438-5160f6081d10",
+        "executionTemplatePath": ".templates\\ExecutionTemplate.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AcmeSystem1\\TestCase.xaml"
       }
     ],
     "saveToCloud": false
