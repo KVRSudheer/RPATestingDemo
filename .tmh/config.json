@@ -1,3 +1,9 @@
 {
-  "issueKeyTestcaseValues": {}
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://cloud.uipath.com/UiPathTrialZone/DefaultTenant/testmanager_",
+  "defaultProject": {
+    "id": "b454aa03-9f14-0000-cbb6-0b47444a28b4",
+    "name": "ACME_RPATesting_Demo",
+    "key": "ACMEDEMO"
+  }
 }

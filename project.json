@@ -148,18 +148,28 @@
         "fileName": "Test Cases\\AcmeSystem1\\Functional Tests\\TC_WI4Workitems_Mock.xaml"
       },
       {
-        "editingStatus": "Publishable",
+        "templateType": "ExecutionTemplate",
+        "fileName": ".templates\\ExecutionTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
         "testCaseId": "161d3c0a-8bb7-4bca-8d3e-de2bda5db18a",
         "dataVariationFilePath": ".variations\\Test Data WI5_Sheet1.json",
         "executionTemplatePath": ".templates\\ExecutionTemplate.xaml",
         "testCaseType": "TestCase",
         "executionTemplateType": "Local",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "Test Cases\\AcmeSystem1\\Functional Tests\\TC_WI5WorkItems_DataDriven.xaml"
+        "fileName": "Test Cases\\AcmeSystem1\\Functional Tests\\Deprycated-TC_WI5WorkItems_DataDriven.xaml"
       },
       {
-        "templateType": "ExecutionTemplate",
-        "fileName": ".templates\\ExecutionTemplate.xaml"
+        "editingStatus": "Publishable",
+        "testCaseId": "020a2909-066b-4828-b8b7-95be71b3c99c",
+        "dataVariationFilePath": ".variations\\Test Data WI5_Sheet1.json",
+        "executionTemplatePath": ".templates\\ExecutionTemplate.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AcmeSystem1\\Functional Tests\\TC_WI5WorkItems_DataDriven.xaml"
       }
     ],
     "saveToCloud": false
