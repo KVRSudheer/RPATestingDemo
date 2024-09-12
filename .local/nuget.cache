@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WYEeTalpBkB4JfG7ejbCCi7PRN2sYvugpugHiU6/odkYzKinQXfyE1kqq/TYOStW1VMd0HWqTCudH8lAsR+dpQ==",
+  "dgSpecHash": "h6FmcZaj38Lu+kAagT5t1ID/VUNmljPDLQAK5pbMOai6TQvtWzXb4DX1X/leLWFB92ttL0XF2RYtB6BQjT3sKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sudheer.kvr\\Documents\\FY24-25\\Testing\\RPA Testing\\RPA Testing with Studio\\.local\\",
+  "projectFilePath": "C:\\Users\\sudheer.kvr\\Documents\\FY24-25\\Testing\\RPA Testing\\GIT Code\\RPATestingDemo\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\sudheer.kvr\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\sudheer.kvr\\.nuget\\packages\\avalonedit\\6.1.3.50\\avalonedit.6.1.3.50.nupkg.sha512",

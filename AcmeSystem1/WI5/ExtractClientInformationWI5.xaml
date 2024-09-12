@@ -9,7 +9,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>682,2222</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>682,2224.66666666667</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ExtractClientInformationWI5_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -91,7 +91,7 @@
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ExtractClientInformationWI5" sap:VirtualizedContainerService.HintSize="692,2157.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ExtractClientInformationWI5" sap:VirtualizedContainerService.HintSize="692,2160" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -110,7 +110,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="534,84.6666666666667" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="[&quot;https://acme-test.uipath.com/work-items/&quot;+in_WIID]" Version="V1" />
-            <uta:VerifyExpression KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" AlternativeVerificationTitle="Click on workitems on dashboard page" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="534,64" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Workitems page loaded successfully" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+            <uta:VerifyExpression KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" AlternativeVerificationTitle="Click on workitems on dashboard page" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="534,64" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Workitems page loaded successfully" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
@@ -124,13 +124,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: ACME System 1 - Work Items" sap:VirtualizedContainerService.HintSize="630,1582" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InUiElement="[in_Browser]" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" OutUiElement="[in_Browser]" ScopeGuid="86aeca22-1db3-437c-99d4-129caec6136f" Version="V1">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: ACME System 1 - Work Items" sap:VirtualizedContainerService.HintSize="630,1584.66666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InUiElement="[in_Browser]" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" OutUiElement="[in_Browser]" ScopeGuid="86aeca22-1db3-437c-99d4-129caec6136f" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="596,1442.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="596,1445.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="ClientDetails" />
               <Variable x:TypeArguments="x:Int32" Name="StartIndex" />
@@ -149,7 +149,7 @@
                 <OutArgument x:TypeArguments="x:String">[clientDetails]</OutArgument>
               </uix:NGetText.Text>
             </uix:NGetText>
-            <uta:VerifyExpression KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" AlternativeVerificationTitle="Navigate to workitem" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="534,64" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Workitem information should load successfully" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+            <uta:VerifyExpression KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" AlternativeVerificationTitle="Navigate to workitem" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="534,64" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Workitem information should load successfully" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True" />
             <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="534,64" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[clientDetails]" />
             <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="534,209.333333333333" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
               <ui:MultipleAssign.AssignOperations>
@@ -259,7 +259,7 @@
                 </scg:List>
               </ui:MultipleAssign.AssignOperations>
             </ui:MultipleAssign>
-            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="431,61" sap2010:WorkflowViewState.IdRef="WriteLine_4" Text="[&quot;Client Country: &quot;+out_ClientCountry]" />
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="534,64" sap2010:WorkflowViewState.IdRef="WriteLine_4" Text="[&quot;Client Country: &quot;+out_ClientCountry]" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>

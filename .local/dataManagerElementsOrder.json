@@ -12,171 +12,106 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "dt_ExtractData&Flowchart_1",
-        "dt_FilteredData&Flowchart_1",
-        "Browser&Flowchart_1",
-        "App&Flowchart_1",
-        "ProcessWorkItems&Flowchart_1",
-        "ClientId&Sequence_9",
-        "ClientName&Sequence_9",
-        "ClientCountry&Sequence_9",
-        "SecurityHash&Sequence_9",
-        "TaxId&Sequence_7",
-        "UploadId&Sequence_7",
-        "ClientId&Sequence_5",
-        "AccountNumber&Sequence_5",
-        "AccountAmount&Sequence_5",
-        "TotalSystem3&Sequence_5"
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "rpaBrowser&StateMachine_1",
+        "rpaTransactions&StateMachine_1",
+        "ShouldStop&Sequence_25"
       ],
       "ArgumentsSectionElementsOrder": [
-        "in_FilterCriteria"
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
       ],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
     },
     {
-      "Path": "AcmeSystem1/AcmeSystem1_Login.xaml",
+      "Path": "Framework/GetTransactionData.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [
-        "out_Browser"
+        "in_TransactionNumber",
+        "in_Config",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_TransactionData",
+        "rpaTransactions"
       ],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
     },
     {
-      "Path": "AcmeSystem1/WI5/ExtractClientInformationWI5.xaml",
+      "Path": "Tests/InitAllApplicationsTestCase.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "ClientDetails&Sequence_3",
-        "StartIndex&Sequence_3",
-        "EndIndex&Sequence_3"
-      ],
-      "ArgumentsSectionElementsOrder": [
-        "in_WIID",
-        "in_Browser",
-        "out_ClienId",
-        "out_ClientName",
-        "out_ClientCountry"
-      ],
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Test Cases/AcmeSystem1/Unit Tests/WI5/TC_UpdateClientSecurityHashWI5.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": [],
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Test Cases/AcmeSystem1/Unit Tests/TC_AcmeSystem1_Login.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [
-        "WelcomeMessage&Sequence_5"
-      ],
-      "ArgumentsSectionElementsOrder": [
-        "in_EmailId"
-      ],
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": ".templates/ExecutionTemplate.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [
-        "Assets&Sequence_1",
-        "executionStartedAt&Sequence_1",
-        "executionStartDate&Sequence_1",
-        "executionStartTime&Sequence_1",
-        "testCaseName&Sequence_1",
-        "jobInfo&Sequence_3",
-        "jsonResponse&Sequence_5",
-        "jObject&Sequence_5",
-        "organizationID&Sequence_6",
-        "orchestratorBaseURL&Sequence_6",
-        "JobId&Sequence_6",
-        "executionEndTime&Sequence_6",
-        "str_bearerToken&Sequence_6",
-        "tableContent&Sequence_6",
-        "testStepsPassed&Sequence_6",
-        "testStepsFailed&Sequence_6",
-        "int_apiStsCode&Sequence_7",
-        "testSetExecutionID&Sequence_7",
-        "arrayJObject&Sequence_7",
-        "responseStatus&Sequence_7",
-        "responseContent&Sequence_7",
-        "responseAttachment&Sequence_7",
-        "rowCounter&Sequence_7",
-        "htmlTemplate&Sequence_7",
-        "TotalExecutionTime&Sequence_10",
-        "str_base64Image&Sequence_11",
-        "imageBytes&Sequence_11",
-        "testSetTableContent&Sequence_12",
-        "testSetName&Sequence_15",
-        "summaryStartDate&Sequence_15",
-        "weeklySummary&Sequence_15",
-        "failedCount&Sequence_15",
-        "passedCount&Sequence_15",
-        "monthlySummary&Sequence_15",
-        "tcJObject&Sequence_16"
+        "Config&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
     },
     {
-      "Path": "Test Cases/AcmeSystem1/Functional Tests/TC_WI5WorkItems_DataDriven.xaml",
+      "Path": "Framework/CloseAllApplications.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "Browser&Sequence_4",
-        "WorkItemStatus&Sequence_5",
-        "WIStatus&Sequence_5",
-        "StartIndex&Sequence_5",
-        "EndIndex&Sequence_5"
+        "fileExists&Sequence_2"
       ],
-      "ArgumentsSectionElementsOrder": [
-        "WIID",
-        "Status"
-      ],
+      "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
     },
     {
-      "Path": "AcmeSystem1/WI5WorkItems.xaml",
+      "Path": "Tests/ProcessTestCase.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "Browser&Sequence_1",
-        "ClientId&Sequence_1",
-        "ClientName&Sequence_1",
-        "ClientCountry&Sequence_1",
-        "SecurityHash&Sequence_1"
+        "Config&Sequence_1",
+        "TransactionItem&Sequence_1",
+        "TransactionNumber&Sequence_1"
       ],
-      "ArgumentsSectionElementsOrder": [
-        "in_WIID"
-      ],
+      "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
     },
     {
-      "Path": "AcmeSystem1/NavigateToWorkItems.xaml",
+      "Path": "Framework/Process.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": [
-        "out_Browser"
+      "VariablesSectionElementsOrder": [
+        "phoneNumber&Sequence_1",
+        "email&Sequence_1",
+        "firstName&Sequence_1",
+        "lastName&Sequence_1",
+        "companyName&Sequence_1",
+        "address&Sequence_1",
+        "companyRole&Sequence_1"
       ],
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "AcmeSystem1/WI5/UpdateClientSecurityHashWI5.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [
-        "in_WIID",
-        "in_SecurityHash",
+        "in_TransactionItem",
+        "in_Config",
         "in_Browser"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Tests/GeneralTestCase.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Output&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "WorkflowFile",
+        "ExpectedResult"
       ],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
