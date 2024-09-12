@@ -1,19 +1,21 @@
 {
-  "name": "RPA Challenge Testing",
-  "projectId": "8db7c679-27b8-4375-acd8-168c03a0de20",
-  "description": "Solution of the RPA Challenge designed for testing",
+  "name": "RPATesting_UiBank",
+  "projectId": "70367fc4-4f73-45f3-be24-eca4d5b60d87",
+  "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.11.3]",
-    "UiPath.System.Activities": "[21.10.0]",
-    "UiPath.Testing.Activities": "[1.4.3]",
-    "UiPath.UIAutomation.Activities": "[21.10.1]"
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.3]",
+    "UiPath.System.Activities": "[24.10.5]",
+    "UiPath.Testing.Activities": "[1.4.6]",
+    "UiPath.UIAutomation.Activities": "[21.10.5]",
+    "UiPath.WebAPI.Activities": "[1.21.1]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "21.10.0.0",
-  "projectVersion": "1.0.0",
+  "studioVersion": "21.10.5.0",
+  "projectVersion": "1.0.2",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -44,47 +46,120 @@
     },
     "fileInfoCollection": [
       {
-        "editingStatus": "InProgress",
-        "testCaseId": "dff814c0-783a-4c1f-ad12-cc6062716378",
-        "dataVariationFilePath": ".variations\\Tests_Tests.json",
+        "editingStatus": "Publishable",
+        "testCaseId": "d847d6b2-4416-4e00-af29-67531b6193c3",
         "testCaseType": "TestCase",
-        "fileName": "Tests\\GeneralTestCase.xaml"
+        "fileName": "Test Cases\\AcmeSystem1\\Unit Tests\\TC_AcmeSystem1_Login.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9266a069-b18f-4dd3-9907-f7e7f64e18c8",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\AcmeSystem1\\Unit Tests\\TC_NavigateToWorkItems.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "faf30c46-65d5-4329-bdb0-83efd3804a7f",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\AcmeSystem1\\Unit Tests\\TC_FilterExtractedData.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "64349582-6b03-4049-a714-aa3dbbaa904c",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\AcmeSystem1\\Unit Tests\\TC_ExtractWorkItems.xaml"
       },
       {
         "editingStatus": "InProgress",
-        "testCaseId": "7f8cf07a-af2e-4103-a91f-d790b7636e42",
+        "testCaseId": "fa632010-5805-4f79-9438-da5297d796c8",
         "testCaseType": "TestCase",
-        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
+        "fileName": "Test Cases\\AcmeSystem3\\Unit Tests\\TC_SearchForClient.xaml"
       },
       {
         "editingStatus": "InProgress",
-        "testCaseId": "d460f611-7c5f-4dc9-83d8-1e4868335a28",
+        "testCaseId": "cbbe5fe9-fd71-4c48-8b1d-b04fff7d93c3",
         "testCaseType": "TestCase",
-        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
+        "fileName": "Test Cases\\AcmeSystem3\\Unit Tests\\TC_AcmeSystem3_Login.xaml"
       },
       {
         "editingStatus": "InProgress",
-        "testCaseId": "b02f9281-62a8-4ebd-9898-9a9c8228be16",
+        "testCaseId": "e58ff5c9-28b7-45ae-9342-712aebe89b48",
         "testCaseType": "TestCase",
-        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
+        "fileName": "Test Cases\\SHA1\\Unit Tests\\TC_SHA1_RetrieveClientSecurityHash.xaml"
       },
       {
         "editingStatus": "InProgress",
-        "testCaseId": "8b839bd2-0960-42b3-9eaf-8e87f5c62eae",
+        "testCaseId": "1cf0a8fc-3b5c-4a20-8566-3f6e55054603",
         "testCaseType": "TestCase",
-        "fileName": "Tests\\MainTestCase.xaml"
+        "fileName": "Test Cases\\AcmeSystem1\\Unit Tests\\WI1\\TC_UpdateWorkItemWI1.xaml"
       },
       {
         "editingStatus": "InProgress",
-        "testCaseId": "4dc7f66a-2722-4eb5-afc8-fdbb5ce5ce6b",
+        "testCaseId": "fcbebb80-952b-4129-a17d-d86cf1a1aa10",
         "testCaseType": "TestCase",
-        "fileName": "Tests\\ProcessTestCase.xaml"
+        "fileName": "Test Cases\\AcmeSystem1\\Unit Tests\\WI1\\TC_ExtractAccountDetailsWI1.xaml"
       },
       {
         "editingStatus": "InProgress",
-        "testCaseId": "8488e3cc-4648-4cd7-a971-648f7427b2b6",
+        "testCaseId": "fe9c94a3-6625-4549-abdf-5e0691a5b5fc",
         "testCaseType": "TestCase",
-        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+        "fileName": "Test Cases\\AcmeSystem1\\Unit Tests\\WI4\\TC_UploadYearlyReportWI4.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4cf7af52-4cfd-4411-801a-253bc54aca75",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\AcmeSystem1\\Unit Tests\\WI4\\TC_UpdateWorkItemWI4.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f3d6aff9-fa77-4679-adf5-7a6cff97144d",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\AcmeSystem1\\Unit Tests\\WI4\\TC_GenerateConsolidatedReport.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e1c7b00d-c9da-43dc-af8c-c40644335ed8",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\AcmeSystem1\\Unit Tests\\WI4\\TC_ExtractVendorInformationWI4.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a260aed7-394c-42b5-9cbc-aef5c34adbc2",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\AcmeSystem1\\Unit Tests\\WI4\\TC_DownloadMonthlyReportWI4.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "37880df5-3ebb-4e17-af84-79ff3018064a",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\AcmeSystem1\\Unit Tests\\WI5\\TC_UpdateClientSecurityHashWI5.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "89bd023b-d8e6-4c81-a62b-d62c0cec47ae",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\AcmeSystem1\\Unit Tests\\WI5\\TC_ExtractClientInformationWI5.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d7a6ffb6-0374-4ddd-ad25-47094a1761f3",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\AcmeSystem1\\Functional Tests\\TC_WI4Workitems_Mock.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "161d3c0a-8bb7-4bca-8d3e-de2bda5db18a",
+        "dataVariationFilePath": ".variations\\Test Data WI5_Sheet1.json",
+        "executionTemplatePath": ".templates\\ExecutionTemplate.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\AcmeSystem1\\Functional Tests\\TC_WI5WorkItems_DataDriven.xaml"
+      },
+      {
+        "templateType": "ExecutionTemplate",
+        "fileName": ".templates\\ExecutionTemplate.xaml"
       }
     ],
     "saveToCloud": false
@@ -93,7 +168,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "a2fa9fa1-eea6-4664-a87e-effca84fcdbc",
+      "uniqueId": "ea0d1191-754b-4c1c-97f6-182165e63c57",
       "input": [],
       "output": []
     }
